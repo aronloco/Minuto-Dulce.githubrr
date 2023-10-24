@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+   font-family: 'Dancing Script', cursive;
+font-family: 'Playpen Sans', cursive;
+background-color: skyblue;
+color: pink;
+padding: 5px;
+text-align: center;
+}
+footer{
+    color: pink;
+    background-color: skyblue;
+    padding: 10px;
+
+}
+
+p{
+    margin: 25px;
+
+}
+a{
+    text-decoration: none;
+    color: skyblue;
+    background-color: pink;
+    padding:10px;
+    margin: 25px;
+    
+    
+
+
+}
+#imagen-datos{
+    width: 100%;
+}
+
+.seccion-datos{
+display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    margin: 25px;
+
+}
+.seccion-banner{
+    background-image: url(fondo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+}
+.seccion-destacados{
+  display: grid;
+  grid-gap: 10px;
+ grid-template-columns: 1fr 1fr 1fr;
+padding: 15px;
+color: pink;
+background-color: skyblue;
+}
+.caja-destacada{
+    padding: 5px;
+    text-align: center;
+
+}
+a:hover{
+    background-color:white;
+
+}
+.caja-destacada:hover{
+    background-color:white;
+    font-style: italic;
+}
